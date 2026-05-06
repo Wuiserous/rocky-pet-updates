@@ -1,3 +1,4 @@
+![Rocky Desktop Pet Banner](rocky-banner.png)
 # Rocky Desktop Pet
 
 Rocky is a voice-first desktop pet powered by the Gemini Live API. It lives on your screen as an animated companion, listens through your microphone, speaks back with realtime audio, remembers personal preferences, checks weather and news, sets reminders, sleeps and wakes, dances, and can optionally see your screen when you explicitly ask.
