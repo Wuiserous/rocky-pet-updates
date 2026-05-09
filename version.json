@@ -1,16 +1,16 @@
 {
-  "version": "1.3",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.3/RockySetup.exe",
-  "key_note": "Rocky v1.3 improves app opening, file finding, shell reliability, update UX, memory continuity, mic behavior, and adds the new Support Rocky QR.",
+  "version": "1.4",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.4/RockySetup.exe",
+  "key_note": "Rocky now launches safely even when a laptop has microphone or speaker issues, and adds richer Control Center settings plus more natural curious wandering.",
   "whats_new": [
-    "More reliable app launching, including Notepad and Camera",
-    "Better file and folder finding/opening",
-    "Safer shell execution with clearer errors",
-    "Hourly update checks with progress and restart flow",
-    "Improved rolling conversation context",
-    "Cleaner mic mute and sleep bubble behavior",
-    "Support Rocky QR in the tray and pet menu",
-    "Fixed support QR packaging in the compiled app",
-    "One-time gentle support nudge after real activity"
+    "Fixed startup crashes caused by PyAudio host errors on laptops with unavailable or misconfigured audio devices",
+    "Rocky now opens microphone and speaker devices lazily instead of during app startup",
+    "Added audio status and Retry Audio Devices inside Control Center",
+    "Added Control Center toggles for speech bubbles, voice output, screen sharing, proactive nudges, weather/news nudges, support nudges, cursor curiosity, and wandering",
+    "Added cursor curiosity controls for follow chance and side distance",
+    "Rocky now follows the cursor from the side instead of sitting directly under it",
+    "Rocky now wanders around more naturally with small curious movements",
+    "Simplified the pet right-click menu to reduce duplicate settings and keep preferences inside Control Center",
+    "Kept the app version at v1.4 for this stability update"
   ]
 }
