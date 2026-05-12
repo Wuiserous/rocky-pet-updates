@@ -1,16 +1,14 @@
 {
-  "version": "1.4",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.4/RockySetup.exe",
-  "key_note": "Rocky now launches safely even when a laptop has microphone or speaker issues, and adds richer Control Center settings plus more natural curious wandering.",
+  "version": "1.5",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.5/RockySetup.exe",
+  "key_note": "Rocky v1.5 adds selectable desktop pets, each with its own animations, voice, and personality.",
   "whats_new": [
-    "Fixed startup crashes caused by PyAudio host errors on laptops with unavailable or misconfigured audio devices",
-    "Rocky now opens microphone and speaker devices lazily instead of during app startup",
-    "Added audio status and Retry Audio Devices inside Control Center",
-    "Added Control Center toggles for speech bubbles, voice output, screen sharing, proactive nudges, weather/news nudges, support nudges, cursor curiosity, and wandering",
-    "Added cursor curiosity controls for follow chance and side distance",
-    "Rocky now follows the cursor from the side instead of sitting directly under it",
-    "Rocky now wanders around more naturally with small curious movements",
-    "Simplified the pet right-click menu to reduce duplicate settings and keep preferences inside Control Center",
-    "Kept the app version at v1.4 for this stability update"
+    "Added a new Pet tab in Rocky Control Center",
+    "Added live character previews before saving a pet",
+    "Added three selectable pets: Rocky, Rhea, and Pip",
+    "Each pet now has its own animation folder, display name, voice, vibe, and system prompt",
+    "Changing pets now swaps the visible desktop character immediately",
+    "Changing pets also refreshes the Gemini Live session so the new voice and personality take effect",
+    "Updated packaged builds to include the pets folder correctly"
   ]
 }
