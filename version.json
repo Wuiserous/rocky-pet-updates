@@ -1,14 +1,12 @@
 {
-  "version": "1.5",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.5/RockySetup.exe",
+  "version": "1.6",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.6/RockySetup.exe",
   "key_note": "Rocky v1.5 adds selectable desktop pets, each with its own animations, voice, and personality.",
   "whats_new": [
-    "Added a new Pet tab in Rocky Control Center",
-    "Added live character previews before saving a pet",
-    "Added three selectable pets: Rocky, Rhea, and Pip",
-    "Each pet now has its own animation folder, display name, voice, vibe, and system prompt",
-    "Changing pets now swaps the visible desktop character immediately",
-    "Changing pets also refreshes the Gemini Live session so the new voice and personality take effect",
-    "Updated packaged builds to include the pets folder correctly"
+    "Improved pet switching so voice and personality refresh immediately after changing pets",
+    "Made the Gemini Live session refresh safer during pet changes",
+    "Reduced the chance of microphone stream issues when switching characters",
+    "Kept instant desktop animation swapping for selected pets",
+    "Updated v1.5 pet selection behavior for a smoother character-change experience"
   ]
 }
