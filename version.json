@@ -1,12 +1,16 @@
 {
-  "version": "1.6",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.6/RockySetup.exe",
-  "key_note": "Rocky v1.6 adds selectable desktop pets, each with its own animations, voice, and personality.",
+  "version": "1.7",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.7/RockySetup.exe",
+  "key_note": "Rocky v1.7 stabilizes selectable pets, per-pet memory, sleep listening, screen awareness, and the Gemini Live voice loop.",
   "whats_new": [
-    "Improved pet switching so voice and personality refresh immediately after changing pets",
-    "Made the Gemini Live session refresh safer during pet changes",
-    "Reduced the chance of microphone stream issues when switching characters",
-    "Kept instant desktop animation swapping for selected pets",
-    "Updated v1.5 pet selection behavior for a smoother character-change experience"
+    "Added selectable desktop pets with separate animations, voices, names, base prompts, and personality settings",
+    "Kept user profile memory shared while isolating recent chat and long-term memories per character",
+    "Added memory management controls for editing profile memory, long-term memories, and recent context",
+    "Added configurable sleep listening so the pet can stay silent while asleep and wake only for clear user requests",
+    "Fixed sleep-state loops, stale wake prompts, and weather/news requests getting stuck after waking",
+    "Improved pet switching so the visible character updates immediately and the Gemini Live session refreshes safely",
+    "Removed the unstable VAD experiment and restored the simpler documented 1024-frame Gemini Live audio stream",
+    "Improved screen sharing and optional quiet screen awareness with higher-quality screen frames",
+    "Made voice/session recovery more resilient when Gemini or the network is slow"
   ]
 }
