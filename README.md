@@ -36,7 +36,7 @@
 <table>
   <tr>
     <td width="34%" align="center">
-      <img src="idle.gif" alt="Rocky idle animation" width="180"><br>
+      <img src="/windows/idle.gif" alt="Rocky idle animation" width="180"><br>
       <strong>Always on your desktop</strong>
     </td>
     <td width="66%">
