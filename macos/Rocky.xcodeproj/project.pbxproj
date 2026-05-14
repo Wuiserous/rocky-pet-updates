@@ -6,17 +6,43 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A10000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ContentView.swift */; };
+		A10000000000000000000002 /* RockyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* RockyApp.swift */; };
+		A10000000000000000000003 /* PetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* PetState.swift */; };
+		A10000000000000000000004 /* PetSpriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000004 /* PetSpriteView.swift */; };
+		A10000000000000000000005 /* PetWindowAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000005 /* PetWindowAccessor.swift */; };
+		A10000000000000000000006 /* PetDragSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000006 /* PetDragSurface.swift */; };
+		A10000000000000000000007 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000007 /* Assets.xcassets */; };
+		A10000000000000000000008 /* spritesheet.webp in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000008 /* spritesheet.webp */; };
+		A10000000000000000000009 /* pet.json in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000009 /* pet.json */; };
+		A1000000000000000000000A /* PetBrainState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000A /* PetBrainState.swift */; };
+		A1000000000000000000000B /* GeminiSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000B /* GeminiSettings.swift */; };
+		A1000000000000000000000C /* GeminiLiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000C /* GeminiLiveService.swift */; };
+		A1000000000000000000000D /* AudioPlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* AudioPlaybackService.swift */; };
+		A1000000000000000000000E /* AudioCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* AudioCaptureService.swift */; };
+		A1000000000000000000000F /* PetBrainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* PetBrainViewModel.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		A20000000000000000000001 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A20000000000000000000002 /* RockyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockyApp.swift; sourceTree = "<group>"; };
+		A20000000000000000000003 /* PetState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetState.swift; sourceTree = "<group>"; };
+		A20000000000000000000004 /* PetSpriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetSpriteView.swift; sourceTree = "<group>"; };
+		A20000000000000000000005 /* PetWindowAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetWindowAccessor.swift; sourceTree = "<group>"; };
+		A20000000000000000000006 /* PetDragSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDragSurface.swift; sourceTree = "<group>"; };
+		A20000000000000000000007 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000000000000000000008 /* spritesheet.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = spritesheet.webp; sourceTree = "<group>"; };
+		A20000000000000000000009 /* pet.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = pet.json; sourceTree = "<group>"; };
+		A2000000000000000000000A /* PetBrainState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBrainState.swift; sourceTree = "<group>"; };
+		A2000000000000000000000B /* GeminiSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiSettings.swift; sourceTree = "<group>"; };
+		A2000000000000000000000C /* GeminiLiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeminiLiveService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000D /* AudioPlaybackService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlaybackService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000E /* AudioCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureService.swift; sourceTree = "<group>"; };
+		A2000000000000000000000F /* PetBrainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBrainViewModel.swift; sourceTree = "<group>"; };
+		A20000000000000000000010 /* Rocky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rocky.entitlements; sourceTree = "<group>"; };
 		36760CA82FB476740099178D /* Rocky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rocky.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		36760CAA2FB476740099178D /* Rocky */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Rocky;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		36760CA52FB476740099178D /* Frameworks */ = {
@@ -29,6 +55,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36760CAA2FB476740099178D /* Rocky */ = {
+			isa = PBXGroup;
+			children = (
+				A2000000000000000000000E /* AudioCaptureService.swift */,
+				A2000000000000000000000D /* AudioPlaybackService.swift */,
+				A20000000000000000000001 /* ContentView.swift */,
+				A2000000000000000000000C /* GeminiLiveService.swift */,
+				A2000000000000000000000B /* GeminiSettings.swift */,
+				A2000000000000000000000A /* PetBrainState.swift */,
+				A2000000000000000000000F /* PetBrainViewModel.swift */,
+				A20000000000000000000006 /* PetDragSurface.swift */,
+				A20000000000000000000004 /* PetSpriteView.swift */,
+				A20000000000000000000003 /* PetState.swift */,
+				A20000000000000000000005 /* PetWindowAccessor.swift */,
+				A20000000000000000000010 /* Rocky.entitlements */,
+				A20000000000000000000002 /* RockyApp.swift */,
+				A30000000000000000000001 /* Resources */,
+				A20000000000000000000007 /* Assets.xcassets */,
+			);
+			path = Rocky;
+			sourceTree = "<group>";
+		};
 		36760C9F2FB476740099178D = {
 			isa = PBXGroup;
 			children = (
@@ -45,6 +93,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A30000000000000000000001 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A30000000000000000000002 /* Dario */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A30000000000000000000002 /* Dario */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000009 /* pet.json */,
+				A20000000000000000000008 /* spritesheet.webp */,
+			);
+			path = Dario;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -59,9 +124,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				36760CAA2FB476740099178D /* Rocky */,
 			);
 			name = Rocky;
 			packageProductDependencies = (
@@ -109,6 +171,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000007 /* Assets.xcassets in Resources */,
+				A10000000000000000000009 /* pet.json in Resources */,
+				A10000000000000000000008 /* spritesheet.webp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +184,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A10000000000000000000001 /* ContentView.swift in Sources */,
+				A1000000000000000000000C /* GeminiLiveService.swift in Sources */,
+				A1000000000000000000000B /* GeminiSettings.swift in Sources */,
+				A1000000000000000000000E /* AudioCaptureService.swift in Sources */,
+				A1000000000000000000000D /* AudioPlaybackService.swift in Sources */,
+				A1000000000000000000000A /* PetBrainState.swift in Sources */,
+				A1000000000000000000000F /* PetBrainViewModel.swift in Sources */,
+				A10000000000000000000006 /* PetDragSurface.swift in Sources */,
+				A10000000000000000000004 /* PetSpriteView.swift in Sources */,
+				A10000000000000000000003 /* PetState.swift in Sources */,
+				A10000000000000000000005 /* PetWindowAccessor.swift in Sources */,
+				A10000000000000000000002 /* RockyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,15 +327,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rocky/Rocky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5D8LD8FV4R;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Rocky needs microphone access so you can talk to your desktop pet.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -282,15 +361,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rocky/Rocky.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5D8LD8FV4R;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Rocky needs microphone access so you can talk to your desktop pet.";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
