@@ -54,22 +54,22 @@
 <table>
   <tr>
     <td align="center" width="25%">
-      <img src="talking_confused.gif" alt="Rocky talking" width="120"><br>
+      <img src="/windows/talking_confused.gif" alt="Rocky talking" width="120"><br>
       <strong>Talk Naturally</strong><br>
       Realtime voice conversation with a cute desktop companion personality.
     </td>
     <td align="center" width="25%">
-      <img src="thinking.gif" alt="Rocky thinking" width="120"><br>
+      <img src="/windows/thinking.gif" alt="Rocky thinking" width="120"><br>
       <strong>Think And Search</strong><br>
       Ask for weather, time, local context, or latest news.
     </td>
     <td align="center" width="25%">
-      <img src="happy.gif" alt="Rocky dancing" width="120"><br>
+      <img src="/windows/happy.gif" alt="Rocky dancing" width="120"><br>
       <strong>Dance And React</strong><br>
       Rocky celebrates, wiggles, and reacts to good moments.
     </td>
     <td align="center" width="25%">
-      <img src="sleeping.gif" alt="Rocky sleeping" width="120"><br>
+      <img src="/windows/sleeping.gif" alt="Rocky sleeping" width="120"><br>
       <strong>Sleep And Wake</strong><br>
       Rocky walks back to its saved sleep spot before resting.
     </td>
