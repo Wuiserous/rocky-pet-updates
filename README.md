@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="rocky-banner.png" alt="Rocky Desktop Pet Banner" width="100%">
+  <img src="/windows/rocky-banner.png" alt="Rocky Desktop Pet Banner" width="100%">
 </p>
 
 <h1 align="center">Rocky Desktop Pet</h1>
