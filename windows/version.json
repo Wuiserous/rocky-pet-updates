@@ -1,16 +1,12 @@
 {
-    "version":  "1.9",
-    "download_url":  "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.9/RockySetup.exe",
-    "key_note":  "Rocky v1.9 stabilizes selectable pets, per-pet memory, sleep listening, screen awareness, and the Gemini Live voice loop.",
-    "whats_new":  [
-                      "Added selectable desktop pets with separate animations, voices, names, base prompts, and personality settings",
-                      "Kept user profile memory shared while isolating recent chat and long-term memories per character",
-                      "Added memory management controls for editing profile memory, long-term memories, and recent context",
-                      "Added configurable sleep listening so the pet can stay silent while asleep and wake only for clear user requests",
-                      "Fixed sleep-state loops, stale wake prompts, and weather/news requests getting stuck after waking",
-                      "Improved pet switching so the visible character updates immediately and the Gemini Live session refreshes safely",
-                      "Removed the unstable VAD experiment and restored the simpler documented 1024-frame Gemini Live audio stream",
-                      "Improved screen sharing and optional quiet screen awareness with higher-quality screen frames",
-                      "Made voice/session recovery more resilient when Gemini or the network is slow"
-                  ]
+  "version": "2.0",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0/RockySetup.exe",
+  "key_note": "Rocky v2.0 adds local Codex handoff, clearer update handling, agent discovery, and gentler proactive/support nudges.",
+  "whats_new": [
+    "Added local Codex handoff for coding, app-building, review, and project update tasks",
+    "Added Agent Tools discovery for installed local agents",
+    "Improved Codex progress updates, changed-file tracking, and completion summaries",
+    "Improved update checks, metadata, installer download flow, and midnight update preference",
+    "Added gentler one-time support nudge and tray support/update actions"
+  ]
 }
