@@ -1,12 +1,13 @@
 {
-  "version": "2.0",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0/RockySetup.exe",
-  "key_note": "Rocky v2.0 adds local Codex handoff, clearer update handling, agent discovery, and gentler proactive/support nudges.",
+  "version": "2.0.1",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0.1/RockySetup.exe",
+  "key_note": "Rocky v2.0.1 improves the pet’s autonomy, daily rhythm, and assistant experience with smarter sleep behavior, proactive routines, and major Control Center refinements.",
   "whats_new": [
-    "Added local Codex handoff for coding, app-building, review, and project update tasks",
-    "Added Agent Tools discovery for installed local agents",
-    "Improved Codex progress updates, changed-file tracking, and completion summaries",
-    "Improved update checks, metadata, installer download flow, and midnight update preference",
-    "Added gentler one-time support nudge and tray support/update actions"
+    "Refined the Control Center UI/UX and added AutoSave support",
+    "Implemented adaptive sleep cycles synced with the master’s schedule",
+    "Increased default sleep duration for more natural proactive behavior",
+    "Added Daily Digest and Day Wrap-Up behaviors",
+    "Implemented Intelligent Idle Mode to detect inactivity/busy states and sleep automatically",
+    "Improved overall assistant autonomy, realism, and system stability"
   ]
 }
