@@ -1,7 +1,7 @@
 {
-  "version": "2.0.2",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0.2/RockySetup.exe",
-  "key_note": "Rocky v2.0.2 improves connected services, Gmail handling, Google Sheets search, and overall assistant reliability.",
+  "version": "2.0.2.1",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0.2.1/RockySetup.exe",
+  "key_note": "Rocky v2.0.2.1 improves connected services, Gmail handling, Google Sheets search, and overall assistant reliability.",
   "whats_new": [
     "Better support for Gmail, Notion, Google Sheets, Drive, GitHub, and YouTube",
     "Smarter Google Sheets search with rough and partial name matching",
