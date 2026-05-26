@@ -1,13 +1,12 @@
 {
-  "version": "2.0.1",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0.1/RockySetup.exe",
-  "key_note": "Rocky v2.0.1 improves the pet’s autonomy, daily rhythm, and assistant experience with smarter sleep behavior, proactive routines, and major Control Center refinements.",
+  "version": "2.0.2",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v2.0.2/RockySetup.exe",
+  "key_note": "Rocky v2.0.2 improves connected services, Gmail handling, Google Sheets search, and overall assistant reliability.",
   "whats_new": [
-    "Refined the Control Center UI/UX and added AutoSave support",
-    "Implemented adaptive sleep cycles synced with the master’s schedule",
-    "Increased default sleep duration for more natural proactive behavior",
-    "Added Daily Digest and Day Wrap-Up behaviors",
-    "Implemented Intelligent Idle Mode to detect inactivity/busy states and sleep automatically",
-    "Improved overall assistant autonomy, realism, and system stability"
+    "Better support for Gmail, Notion, Google Sheets, Drive, GitHub, and YouTube",
+    "Smarter Google Sheets search with rough and partial name matching",
+    "Improved Gmail drafting and reply handling",
+    "More reliable typed connected-service requests",
+    "Refined speech bubble and assistant responsiveness"
   ]
 }
