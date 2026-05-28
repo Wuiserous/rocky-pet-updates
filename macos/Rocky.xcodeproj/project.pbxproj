@@ -7,65 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		36B2B8F42FB63F2B007C1E90 /* talk_happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D92FB63F2B007C1E90 /* talk_happy.gif */; };
-		36B2B8F52FB63F2B007C1E90 /* curious.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8DD2FB63F2B007C1E90 /* curious.gif */; };
-		36B2B8F62FB63F2B007C1E90 /* mistaking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D22FB63F2B007C1E90 /* mistaking.gif */; };
-		36B2B8F72FB63F2B007C1E90 /* drag_down.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B52FB63F2B007C1E90 /* drag_down.gif */; };
-		36B2B8F82FB63F2B007C1E90 /* drag_up.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E02FB63F2B007C1E90 /* drag_up.gif */; };
-		36B2B8F92FB63F2B007C1E90 /* curious.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CA2FB63F2B007C1E90 /* curious.gif */; };
-		36B2B8FA2FB63F2B007C1E90 /* drowsy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CC2FB63F2B007C1E90 /* drowsy.gif */; };
-		36B2B8FB2FB63F2B007C1E90 /* walking_right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C82FB63F2B007C1E90 /* walking_right.gif */; };
-		36B2B8FC2FB63F2B007C1E90 /* thinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8DA2FB63F2B007C1E90 /* thinking.gif */; };
-		36B2B8FD2FB63F2B007C1E90 /* thinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C62FB63F2B007C1E90 /* thinking.gif */; };
-		36B2B8FE2FB63F2B007C1E90 /* idle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E82FB63F2B007C1E90 /* idle.gif */; };
-		36B2B8FF2FB63F2B007C1E90 /* expressive_talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E52FB63F2B007C1E90 /* expressive_talking.gif */; };
-		36B2B9002FB63F2B007C1E90 /* thinking_source_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8DB2FB63F2B007C1E90 /* thinking_source_sheet.png */; };
-		36B2B9012FB63F2B007C1E90 /* talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8EE2FB63F2B007C1E90 /* talking.gif */; };
-		36B2B9022FB63F2B007C1E90 /* thinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8EF2FB63F2B007C1E90 /* thinking.gif */; };
-		36B2B9032FB63F2B007C1E90 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E72FB63F2B007C1E90 /* happy.gif */; };
-		36B2B9042FB63F2B007C1E90 /* expressive_happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E22FB63F2B007C1E90 /* expressive_happy.gif */; };
-		36B2B9052FB63F2B007C1E90 /* dancing.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CB2FB63F2B007C1E90 /* dancing.gif */; };
-		36B2B9062FB63F2B007C1E90 /* penguin_expression_spritesheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D52FB63F2B007C1E90 /* penguin_expression_spritesheet.png */; };
-		36B2B9072FB63F2B007C1E90 /* mic_off.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E92FB63F2B007C1E90 /* mic_off.gif */; };
-		36B2B9082FB63F2B007C1E90 /* expressive_sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E42FB63F2B007C1E90 /* expressive_sleep.gif */; };
-		36B2B9092FB63F2B007C1E90 /* drowsy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E12FB63F2B007C1E90 /* drowsy.gif */; };
-		36B2B90A2FB63F2B007C1E90 /* walk_right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8F12FB63F2B007C1E90 /* walk_right.gif */; };
-		36B2B90B2FB63F2B007C1E90 /* talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8BA2FB63F2B007C1E90 /* talking.gif */; };
-		36B2B90C2FB63F2B007C1E90 /* excited.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CE2FB63F2B007C1E90 /* excited.gif */; };
-		36B2B90D2FB63F2B007C1E90 /* night_sleep_source_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D42FB63F2B007C1E90 /* night_sleep_source_sheet.png */; };
-		36B2B90E2FB63F2B007C1E90 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D12FB63F2B007C1E90 /* manifest.json */; };
-		36B2B90F2FB63F2B007C1E90 /* walking_left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C72FB63F2B007C1E90 /* walking_left.gif */; };
-		36B2B9102FB63F2B007C1E90 /* drag_down.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C02FB63F2B007C1E90 /* drag_down.gif */; };
-		36B2B9112FB63F2B007C1E90 /* sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B92FB63F2B007C1E90 /* sleep.gif */; };
-		36B2B9122FB63F2B007C1E90 /* night_sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D32FB63F2B007C1E90 /* night_sleep.gif */; };
-		36B2B9132FB63F2B007C1E90 /* sleeping.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C42FB63F2B007C1E90 /* sleeping.gif */; };
-		36B2B9142FB63F2B007C1E90 /* idle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C32FB63F2B007C1E90 /* idle.gif */; };
-		36B2B9152FB63F2B007C1E90 /* talking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C52FB63F2B007C1E90 /* talking.gif */; };
-		36B2B9162FB63F2B007C1E90 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C22FB63F2B007C1E90 /* happy.gif */; };
-		36B2B9172FB63F2B007C1E90 /* dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B42FB63F2B007C1E90 /* dance.gif */; };
-		36B2B9182FB63F2B007C1E90 /* dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8BF2FB63F2B007C1E90 /* dance.gif */; };
-		36B2B9192FB63F2B007C1E90 /* searching.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8EC2FB63F2B007C1E90 /* searching.gif */; };
-		36B2B91A2FB63F2B007C1E90 /* expressive_thinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E62FB63F2B007C1E90 /* expressive_thinking.gif */; };
-		36B2B91B2FB63F2B007C1E90 /* hungry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CF2FB63F2B007C1E90 /* hungry.gif */; };
-		36B2B91C2FB63F2B007C1E90 /* night_sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8EB2FB63F2B007C1E90 /* night_sleep.gif */; };
-		36B2B91D2FB63F2B007C1E90 /* walk_left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8F02FB63F2B007C1E90 /* walk_left.gif */; };
-		36B2B91E2FB63F2B007C1E90 /* drag_down.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8DF2FB63F2B007C1E90 /* drag_down.gif */; };
-		36B2B91F2FB63F2B007C1E90 /* mic_off_source_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8EA2FB63F2B007C1E90 /* mic_off_source_sheet.png */; };
-		36B2B9202FB63F2B007C1E90 /* drag_up.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B62FB63F2B007C1E90 /* drag_up.gif */; };
-		36B2B9212FB63F2B007C1E90 /* expressive_idle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8E32FB63F2B007C1E90 /* expressive_idle.gif */; };
-		36B2B9222FB63F2B007C1E90 /* drowsy_source_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8CD2FB63F2B007C1E90 /* drowsy_source_sheet.png */; };
-		36B2B9232FB63F2B007C1E90 /* searching_source_sheet.png in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D72FB63F2B007C1E90 /* searching_source_sheet.png */; };
-		36B2B9242FB63F2B007C1E90 /* sleep.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8ED2FB63F2B007C1E90 /* sleep.gif */; };
-		36B2B9252FB63F2B007C1E90 /* walk_left.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8BC2FB63F2B007C1E90 /* walk_left.gif */; };
-		36B2B9262FB63F2B007C1E90 /* dance.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8DE2FB63F2B007C1E90 /* dance.gif */; };
-		36B2B9272FB63F2B007C1E90 /* talk_angry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D82FB63F2B007C1E90 /* talk_angry.gif */; };
-		36B2B9282FB63F2B007C1E90 /* searching.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D62FB63F2B007C1E90 /* searching.gif */; };
-		36B2B9292FB63F2B007C1E90 /* walk_right.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8BD2FB63F2B007C1E90 /* walk_right.gif */; };
-		36B2B92A2FB63F2B007C1E90 /* jumping.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8D02FB63F2B007C1E90 /* jumping.gif */; };
-		36B2B92B2FB63F2B007C1E90 /* drag_up.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8C12FB63F2B007C1E90 /* drag_up.gif */; };
-		36B2B92C2FB63F2B007C1E90 /* idle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B82FB63F2B007C1E90 /* idle.gif */; };
-		36B2B92D2FB63F2B007C1E90 /* happy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8B72FB63F2B007C1E90 /* happy.gif */; };
-		36B2B92E2FB63F2B007C1E90 /* thinking.gif in Resources */ = {isa = PBXBuildFile; fileRef = 36B2B8BB2FB63F2B007C1E90 /* thinking.gif */; };
 		A10000000000000000000001 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000001 /* ContentView.swift */; };
 		A10000000000000000000002 /* RockyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000002 /* RockyApp.swift */; };
 		A10000000000000000000003 /* PetState.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000003 /* PetState.swift */; };
@@ -81,23 +22,23 @@
 		A1000000000000000000000D /* AudioPlaybackService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000D /* AudioPlaybackService.swift */; };
 		A1000000000000000000000E /* AudioCaptureService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000E /* AudioCaptureService.swift */; };
 		A1000000000000000000000F /* PetBrainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000000F /* PetBrainViewModel.swift */; };
+		A10000000000000000000011 /* Rocky/pets-gif in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* Rocky/pets-gif */; };
+		A10000000000000000000012 /* baby-sleeping-breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* baby-sleeping-breathing.mp3 */; };
 		A10000000000000000000014 /* TypingViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000014 /* TypingViews.swift */; };
 		A10000000000000000000015 /* ControlCenterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000015 /* ControlCenterView.swift */; };
 		A10000000000000000000016 /* UserProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000016 /* UserProfileSettings.swift */; };
 		A10000000000000000000017 /* KeychainStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000017 /* KeychainStore.swift */; };
+		A1000000000000000000001B /* PluginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* PluginProvider.swift */; };
+		A1000000000000000000001C /* PluginConnectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* PluginConnectionStore.swift */; };
+		A1000000000000000000001D /* PluginConnectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* PluginConnectionService.swift */; };
+		A1000000000000000000001E /* PluginToolExecutionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* PluginToolExecutionService.swift */; };
+		A1000000000000000000001F /* GmailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* GmailModels.swift */; };
 		A10000000000000000000020 /* ShortcutSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000020 /* ShortcutSettings.swift */; };
 		A10000000000000000000021 /* ScheduleModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000021 /* ScheduleModels.swift */; };
 		A10000000000000000000022 /* ScheduleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000022 /* ScheduleService.swift */; };
 		A10000000000000000000023 /* MemoryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000023 /* MemoryService.swift */; };
 		A10000000000000000000024 /* MemorySettingsModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000024 /* MemorySettingsModels.swift */; };
 		A10000000000000000000025 /* AppUpdateService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000025 /* AppUpdateService.swift */; };
-		A1000000000000000000001F /* GmailModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001F /* GmailModels.swift */; };
-		A1000000000000000000001B /* PluginProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001B /* PluginProvider.swift */; };
-		A1000000000000000000001C /* PluginConnectionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001C /* PluginConnectionStore.swift */; };
-		A1000000000000000000001D /* PluginConnectionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001D /* PluginConnectionService.swift */; };
-		A1000000000000000000001E /* PluginToolExecutionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2000000000000000000001E /* PluginToolExecutionService.swift */; };
-		A10000000000000000000011 /* pets-gif in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000011 /* pets-gif */; };
-		A10000000000000000000012 /* baby-sleeping-breathing.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A20000000000000000000012 /* baby-sleeping-breathing.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -177,23 +118,23 @@
 		A2000000000000000000000E /* AudioCaptureService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioCaptureService.swift; sourceTree = "<group>"; };
 		A2000000000000000000000F /* PetBrainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetBrainViewModel.swift; sourceTree = "<group>"; };
 		A20000000000000000000010 /* Rocky.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rocky.entitlements; sourceTree = "<group>"; };
-		A20000000000000000000011 /* pets-gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Rocky/pets-gif"; sourceTree = SOURCE_ROOT; };
+		A20000000000000000000011 /* Rocky/pets-gif */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Rocky/pets-gif"; sourceTree = SOURCE_ROOT; };
 		A20000000000000000000012 /* baby-sleeping-breathing.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "baby-sleeping-breathing.mp3"; sourceTree = "<group>"; };
 		A20000000000000000000014 /* TypingViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypingViews.swift; sourceTree = "<group>"; };
 		A20000000000000000000015 /* ControlCenterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlCenterView.swift; sourceTree = "<group>"; };
 		A20000000000000000000016 /* UserProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileSettings.swift; sourceTree = "<group>"; };
 		A20000000000000000000017 /* KeychainStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000001B /* PluginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginProvider.swift; sourceTree = "<group>"; };
+		A2000000000000000000001C /* PluginConnectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginConnectionStore.swift; sourceTree = "<group>"; };
+		A2000000000000000000001D /* PluginConnectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginConnectionService.swift; sourceTree = "<group>"; };
+		A2000000000000000000001E /* PluginToolExecutionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginToolExecutionService.swift; sourceTree = "<group>"; };
+		A2000000000000000000001F /* GmailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailModels.swift; sourceTree = "<group>"; };
 		A20000000000000000000020 /* ShortcutSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutSettings.swift; sourceTree = "<group>"; };
 		A20000000000000000000021 /* ScheduleModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleModels.swift; sourceTree = "<group>"; };
 		A20000000000000000000022 /* ScheduleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleService.swift; sourceTree = "<group>"; };
 		A20000000000000000000023 /* MemoryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryService.swift; sourceTree = "<group>"; };
 		A20000000000000000000024 /* MemorySettingsModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemorySettingsModels.swift; sourceTree = "<group>"; };
 		A20000000000000000000025 /* AppUpdateService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUpdateService.swift; sourceTree = "<group>"; };
-		A2000000000000000000001F /* GmailModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GmailModels.swift; sourceTree = "<group>"; };
-		A2000000000000000000001B /* PluginProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginProvider.swift; sourceTree = "<group>"; };
-		A2000000000000000000001C /* PluginConnectionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginConnectionStore.swift; sourceTree = "<group>"; };
-		A2000000000000000000001D /* PluginConnectionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginConnectionService.swift; sourceTree = "<group>"; };
-		A2000000000000000000001E /* PluginToolExecutionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PluginToolExecutionService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,11 +148,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36087C962FC8193F00C0EC76 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				A20000000000000000000011 /* Rocky/pets-gif */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		36760C9F2FB476740099178D = {
 			isa = PBXGroup;
 			children = (
 				36760CAA2FB476740099178D /* Rocky */,
 				36760CA92FB476740099178D /* Products */,
+				36087C962FC8193F00C0EC76 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -446,7 +396,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10000000000000000000011 /* pets-gif in Resources */,
+				A10000000000000000000011 /* Rocky/pets-gif in Resources */,
 				A10000000000000000000007 /* Assets.xcassets in Resources */,
 				A10000000000000000000012 /* baby-sleeping-breathing.mp3 in Resources */,
 				A10000000000000000000009 /* pet.json in Resources */,
@@ -635,7 +585,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anil.Rocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
@@ -669,7 +619,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.anil.Rocky;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;

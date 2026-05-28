@@ -80,7 +80,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate, UNUserNotificationCent
     }
 
     func applicationDidFinishLaunching(_ notification: Notification) {
-        NSApp.setActivationPolicy(.accessory)
+        NSApp.setActivationPolicy(.regular)
         UNUserNotificationCenter.current().delegate = self
         registerForLaunchAtLoginIfNeeded()
         createStatusItem()

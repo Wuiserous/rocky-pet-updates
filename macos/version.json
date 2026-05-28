@@ -1,10 +1,11 @@
 {
-  "version": "1.0",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.0.0/Rocky.dmg",
-  "key_note": "Initial macOS in-app update channel for Rocky.",
+  "version": "1.1.0",
+  "build": "2",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.1.0/Rocky.dmg",
+  "key_note": "Rocky macOS v1.1.0 is available.",
   "whats_new": [
-    "Adds a simple version.json-driven macOS update flow",
-    "Downloads the latest Rocky DMG from GitHub Releases when a newer version is available",
-    "Replaces the installed Rocky app and relaunches automatically"
+    "Removes the old You section from General settings",
+    "Rocky now shows as a normal running app in the Dock",
+    "Continues the macOS in-app update flow"
   ]
 }

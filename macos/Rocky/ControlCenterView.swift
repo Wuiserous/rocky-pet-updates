@@ -45,8 +45,6 @@ struct ControlCenterView: View {
     @ObservedObject var brain: PetBrainViewModel
     @ObservedObject var updateService: AppUpdateService
     @State private var selectedTab: ControlCenterTab = .settings
-    @State private var draftName: String
-    @State private var draftAPIKey: String
     @State private var draftIdleSleepDelay: String
     @State private var draftShortcutPreferences: RockyShortcutPreferences
     @State private var pluginSearchText = ""
@@ -55,8 +53,6 @@ struct ControlCenterView: View {
     init(brain: PetBrainViewModel, updateService: AppUpdateService) {
         self.brain = brain
         self.updateService = updateService
-        _draftName = State(initialValue: brain.userName)
-        _draftAPIKey = State(initialValue: brain.savedAPIKey)
         _draftIdleSleepDelay = State(initialValue: String(brain.idleSleepDelaySeconds))
         _draftShortcutPreferences = State(initialValue: brain.shortcutPreferences)
     }
@@ -70,16 +66,6 @@ struct ControlCenterView: View {
         }
         .frame(minWidth: 720, idealWidth: 800, minHeight: 560, idealHeight: 620)
         .background(windowBackgroundColor)
-        .onChange(of: brain.userName) { _, newValue in
-            if draftName != newValue {
-                draftName = newValue
-            }
-        }
-        .onChange(of: brain.savedAPIKey) { _, newValue in
-            if draftAPIKey != newValue {
-                draftAPIKey = newValue
-            }
-        }
         .onChange(of: brain.idleSleepDelaySeconds) { _, newValue in
             let nextValue = String(newValue)
             if draftIdleSleepDelay != nextValue {
@@ -138,7 +124,6 @@ struct ControlCenterView: View {
             VStack(alignment: .leading, spacing: 24) {
                 switch selectedTab {
                 case .settings:
-                    settingsYouSection
                     settingsBehaviourSection
                     settingsUpdatesSection
                     settingsShortcutsSection
@@ -157,26 +142,6 @@ struct ControlCenterView: View {
             .frame(maxWidth: 820)
             .padding(.horizontal, 28)
             .padding(.vertical, 22)
-        }
-    }
-
-    private var settingsYouSection: some View {
-        settingsSection(title: "You", subtitle: "Tell Rocky who you are and which Gemini key to use.") {
-            VStack(alignment: .leading, spacing: 16) {
-                settingsRow(title: "Name") {
-                    inputField {
-                        TextField("Your name", text: $draftName)
-                            .textFieldStyle(.plain)
-                    }
-                }
-
-                settingsRow(title: "Gemini API Key") {
-                    inputField {
-                        TextField("AIza...", text: $draftAPIKey)
-                            .textFieldStyle(.plain)
-                    }
-                }
-            }
         }
     }
 
@@ -972,8 +937,6 @@ struct ControlCenterView: View {
     }
 
     private var hasPendingSettingsChanges: Bool {
-        draftName.trimmingCharacters(in: .whitespacesAndNewlines) != brain.userName ||
-        draftAPIKey.trimmingCharacters(in: .whitespacesAndNewlines) != brain.savedAPIKey ||
         parsedIdleSleepDelaySeconds != brain.idleSleepDelaySeconds ||
         draftShortcutPreferences != brain.shortcutPreferences
     }
@@ -1001,8 +964,6 @@ struct ControlCenterView: View {
     }
 
     private func applySettings() {
-        brain.setUserName(draftName)
-        brain.setSavedAPIKey(draftAPIKey)
         brain.setIdleSleepDelaySeconds(parsedIdleSleepDelaySeconds)
         if shortcutValidationError == nil {
             brain.setShortcutPreferences(draftShortcutPreferences)
