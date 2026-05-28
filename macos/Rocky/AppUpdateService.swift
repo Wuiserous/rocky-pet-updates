@@ -123,7 +123,22 @@ final class AppUpdateService: ObservableObject {
     }
 
     private func fetchManifest() async throws -> MacVersionManifest {
-        let (data, response) = try await session.data(from: versionMetadataURL)
+        var components = URLComponents(url: versionMetadataURL, resolvingAgainstBaseURL: false)
+        var queryItems = components?.queryItems ?? []
+        queryItems.append(
+            URLQueryItem(name: "t", value: String(Int(Date().timeIntervalSince1970)))
+        )
+        components?.queryItems = queryItems
+
+        guard let requestURL = components?.url else {
+            throw AppUpdateError.invalidVersionMetadataURL
+        }
+
+        var request = URLRequest(url: requestURL, cachePolicy: .reloadIgnoringLocalCacheData)
+        request.setValue("no-cache", forHTTPHeaderField: "Cache-Control")
+        request.setValue("no-cache", forHTTPHeaderField: "Pragma")
+
+        let (data, response) = try await session.data(for: request)
         guard let httpResponse = response as? HTTPURLResponse, (200 ..< 300).contains(httpResponse.statusCode) else {
             throw AppUpdateError.invalidVersionMetadata
         }
