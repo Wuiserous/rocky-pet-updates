@@ -1,8 +1,8 @@
 {
   "version": "1.1",
-  "build": "2",
+  "build": "1",
   "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.1.0/Rocky.dmg",
-  "key_note": "Rocky macOS v1.1.0 is available.",
+  "key_note": "Rocky macOS v1.1 is available.",
   "whats_new": [
     "Removes the old You section from General settings",
     "Rocky now shows as a normal running app in the Dock",
