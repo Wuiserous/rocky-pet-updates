@@ -1,0 +1,136 @@
+{
+  "purpose": "Extra penguin-only expression/action GIFs. Current core penguin mappings remain unchanged.",
+  "source": "Existing penguin sprite sheet rows plus generated full-frame source rows for missing drowsy/night/thinking/searching states.",
+  "size": [
+    194,
+    183
+  ],
+  "animations": {
+    "talk_happy.gif": {
+      "frames": 8,
+      "duration_ms": 90,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "mistaking.gif": {
+      "frames": 8,
+      "duration_ms": 90,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "talk_angry.gif": {
+      "frames": 8,
+      "duration_ms": 90,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "drowsy.gif": {
+      "frames": 8,
+      "duration_ms": 150,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "night_sleep.gif": {
+      "frames": 8,
+      "duration_ms": 170,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "thinking.gif": {
+      "frames": 8,
+      "duration_ms": 140,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "searching.gif": {
+      "frames": 8,
+      "duration_ms": 120,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "curious.gif": {
+      "frames": 8,
+      "duration_ms": 110,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "jumping.gif": {
+      "frames": 8,
+      "duration_ms": 110,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "dancing.gif": {
+      "frames": 4,
+      "duration_ms": 150,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "hungry.gif": {
+      "frames": 8,
+      "duration_ms": 110,
+      "size": [
+        194,
+        183
+      ]
+    },
+    "excited.gif": {
+      "frames": 8,
+      "duration_ms": 110,
+      "size": [
+        194,
+        183
+      ]
+    }
+  },
+  "notes": {
+    "removed": [
+      "eating_fish.gif"
+    ],
+    "day_sleep": "Use pets/penguine/sleep.gif for normal daytime sleep; night_sleep.gif is only for night costume sleep.",
+    "thinking": "Generated as native thinking pose art, not a manual overlay.",
+    "searching": "Generated as native research/search art with integrated props, not a manual overlay."
+  },
+  "spritesheet": "penguin_expression_spritesheet.png",
+  "spritesheet_grid": {
+    "cell_size": [
+      194,
+      183
+    ],
+    "rows": [
+      "talk_happy",
+      "mistaking",
+      "talk_angry",
+      "drowsy",
+      "night_sleep",
+      "thinking",
+      "searching",
+      "curious",
+      "jumping",
+      "dancing",
+      "hungry",
+      "excited"
+    ],
+    "columns": 8
+  }
+}

@@ -28,9 +28,10 @@ struct PetWindowAccessor: NSViewRepresentable {
         window.isOpaque = false
         window.backgroundColor = .clear
         window.hasShadow = false
-        window.level = .floating
-        window.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary]
+        window.level = .screenSaver
+        window.collectionBehavior = [.canJoinAllSpaces, .fullScreenAuxiliary, .stationary, .ignoresCycle]
         window.isMovableByWindowBackground = false
-        window.styleMask = [.borderless]
+        window.animationBehavior = .none
+        window.styleMask = [.borderless, .nonactivatingPanel]
     }
 }

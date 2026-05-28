@@ -16,11 +16,10 @@ final class AudioCaptureService {
         stop()
 
         let inputNode = engine.inputNode
-        let inputFormat = inputNode.outputFormat(forBus: 0)
-        converter = AVAudioConverter(from: inputFormat, to: outputFormat)
+        let inputFormat = inputNode.inputFormat(forBus: 0)
 
         inputNode.installTap(onBus: 0, bufferSize: 2048, format: inputFormat) { [weak self] buffer, _ in
-            guard let self, let data = convert(buffer, inputFormat: inputFormat) else {
+            guard let self, let data = convert(buffer) else {
                 return
             }
 
@@ -38,7 +37,13 @@ final class AudioCaptureService {
         engine.inputNode.removeTap(onBus: 0)
     }
 
-    private func convert(_ buffer: AVAudioPCMBuffer, inputFormat: AVAudioFormat) -> Data? {
+    private func convert(_ buffer: AVAudioPCMBuffer) -> Data? {
+        let inputFormat = buffer.format
+
+        if converter?.inputFormat != inputFormat {
+            converter = AVAudioConverter(from: inputFormat, to: outputFormat)
+        }
+
         guard let converter else { return nil }
 
         let ratio = outputFormat.sampleRate / inputFormat.sampleRate

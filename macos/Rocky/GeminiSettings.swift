@@ -47,6 +47,15 @@ enum GeminiSettings {
         return value
     }
 
+    static func setAPIKey(_ value: String) {
+        let trimmed = value.trimmingCharacters(in: .whitespacesAndNewlines)
+        if trimmed.isEmpty {
+            UserDefaults.standard.removeObject(forKey: apiKeyDefaultsKey)
+        } else {
+            UserDefaults.standard.set(trimmed, forKey: apiKeyDefaultsKey)
+        }
+    }
+
     static func forgetAPIKey() {
         UserDefaults.standard.removeObject(forKey: apiKeyDefaultsKey)
     }

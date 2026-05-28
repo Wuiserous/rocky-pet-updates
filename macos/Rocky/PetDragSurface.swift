@@ -4,31 +4,51 @@ import SwiftUI
 struct PetDragSurface: NSViewRepresentable {
     let onClick: () -> Void
     let onSelectState: (PetState) -> Void
+    let onSelectPet: (PetCharacter) -> Void
+    let onOpenControlCenter: () -> Void
+    let onDragBegan: () -> Void
     let onDragStateChanged: (PetState) -> Void
     let onDragEnded: () -> Void
+    var petCharacter: PetCharacter = .golemMale
+    var currentState: PetState = .idle
 
     func makeNSView(context: Context) -> DragView {
         let view = DragView()
         view.onClick = onClick
         view.onSelectState = onSelectState
+        view.onSelectPet = onSelectPet
+        view.onOpenControlCenter = onOpenControlCenter
+        view.onDragBegan = onDragBegan
         view.onDragStateChanged = onDragStateChanged
         view.onDragEnded = onDragEnded
+        view.petCharacter = petCharacter
+        view.currentState = currentState
         return view
     }
 
     func updateNSView(_ nsView: DragView, context: Context) {
         nsView.onClick = onClick
         nsView.onSelectState = onSelectState
+        nsView.onSelectPet = onSelectPet
+        nsView.onOpenControlCenter = onOpenControlCenter
+        nsView.onDragBegan = onDragBegan
         nsView.onDragStateChanged = onDragStateChanged
         nsView.onDragEnded = onDragEnded
+        nsView.petCharacter = petCharacter
+        nsView.currentState = currentState
     }
 }
 
 final class DragView: NSView {
     var onClick: (() -> Void)?
     var onSelectState: ((PetState) -> Void)?
+    var onSelectPet: ((PetCharacter) -> Void)?
+    var onOpenControlCenter: (() -> Void)?
+    var onDragBegan: (() -> Void)?
     var onDragStateChanged: ((PetState) -> Void)?
     var onDragEnded: (() -> Void)?
+    var petCharacter: PetCharacter = .golemMale
+    var currentState: PetState = .idle
 
     private var dragStartWindowOrigin: CGPoint?
     private var dragStartMouseLocation: CGPoint?
@@ -60,11 +80,14 @@ final class DragView: NSView {
         let deltaY = currentLocation.y - startMouseLocation.y
 
         if abs(deltaX) > 2 || abs(deltaY) > 2 {
+            if !didDrag {
+                onDragBegan?()
+            }
             didDrag = true
         }
 
         if abs(deltaX) > 4 {
-            let dragState: PetState = deltaX > 0 ? .movingRight : .movingLeft
+            let dragState: PetState = deltaX > 0 ? .walkingRight : .walkingLeft
             if activeDragState != dragState {
                 activeDragState = dragState
                 onDragStateChanged?(dragState)
@@ -102,7 +125,26 @@ final class DragView: NSView {
     override func rightMouseDown(with event: NSEvent) {
         let menu = NSMenu()
 
-        for state in PetState.allCases {
+        let petMenu = NSMenu()
+        for pet in PetCharacter.allCases {
+            let item = NSMenuItem(
+                title: pet.title,
+                action: #selector(selectPet(_:)),
+                keyEquivalent: ""
+            )
+            item.target = self
+            item.representedObject = pet.rawValue
+            item.state = pet == petCharacter ? .on : .off
+            petMenu.addItem(item)
+        }
+
+        let petItem = NSMenuItem(title: "Pets", action: nil, keyEquivalent: "")
+        menu.setSubmenu(petMenu, for: petItem)
+        menu.addItem(petItem)
+
+        let expressionMenu = NSMenu()
+
+        for state in petCharacter.availableStates {
             let item = NSMenuItem(
                 title: state.title,
                 action: #selector(selectState(_:)),
@@ -110,8 +152,31 @@ final class DragView: NSView {
             )
             item.target = self
             item.representedObject = state.rawValue
-            menu.addItem(item)
+            item.state = state == currentState ? .on : .off
+            expressionMenu.addItem(item)
         }
+
+        let expressionItem = NSMenuItem(title: "Expressions", action: nil, keyEquivalent: "")
+        menu.setSubmenu(expressionMenu, for: expressionItem)
+        menu.addItem(expressionItem)
+
+        menu.addItem(.separator())
+
+        let controlCenterItem = NSMenuItem(
+            title: "Open Control Center",
+            action: #selector(openControlCenter),
+            keyEquivalent: ""
+        )
+        controlCenterItem.target = self
+        menu.addItem(controlCenterItem)
+
+        let quitItem = NSMenuItem(
+            title: "Quit Rocky",
+            action: #selector(quitRocky),
+            keyEquivalent: ""
+        )
+        quitItem.target = self
+        menu.addItem(quitItem)
 
         NSMenu.popUpContextMenu(menu, with: event, for: self)
     }
@@ -125,6 +190,26 @@ final class DragView: NSView {
         }
 
         onSelectState?(state)
+    }
+
+    @objc private func selectPet(_ sender: NSMenuItem) {
+        guard
+            let rawValue = sender.representedObject as? String,
+            let pet = PetCharacter(rawValue: rawValue)
+        else {
+            return
+        }
+
+        petCharacter = pet
+        onSelectPet?(pet)
+    }
+
+    @objc private func openControlCenter() {
+        onOpenControlCenter?()
+    }
+
+    @objc private func quitRocky() {
+        NSApp.terminate(nil)
     }
 
     private func clampedOrigin(for window: NSWindow, proposedOrigin: CGPoint) -> CGPoint {
@@ -160,4 +245,5 @@ final class DragView: NSView {
 
 extension Notification.Name {
     static let rockyPetWindowMoved = Notification.Name("rockyPetWindowMoved")
+    static let rockyOpenControlCenter = Notification.Name("rockyOpenControlCenter")
 }
