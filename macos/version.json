@@ -1,11 +1,12 @@
 {
-  "version": "1.1.1",
-  "build": "2",
-  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.1.1/Rocky-1.1.1.dmg",
-  "key_note": "Rocky macOS v1.1.1 is available.",
+  "version": "1.2.0",
+  "build": "3",
+  "download_url": "https://github.com/Wuiserous/rocky-pet-updates/releases/download/v1.2.0/Rocky-1.2.0.dmg",
+  "key_note": "Rocky macOS v1.2.0 is available.",
   "whats_new": [
-    "Fixes updater metadata caching so repeated checks do not redownload the same version",
-    "Removes the old You section from General settings",
-    "Rocky now shows as a normal running app in the Dock"
+    "Redesigned and improved the Control Center UI and overall UX",
+    "Added more comprehensive controls for pet behavior in Control Center",
+    "Introduced web search support, allowing Rocky and other pets to fetch real-time information from the web",
+    "Improved pet behavior and refined the transcript panel UI"
   ]
 }
